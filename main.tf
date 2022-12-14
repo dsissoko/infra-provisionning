@@ -1,0 +1,3 @@
+module "oci" {
+  source  = "./oci"
+}
