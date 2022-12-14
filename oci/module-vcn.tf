@@ -1,7 +1,7 @@
 # Variables
-variable "compartment_id"   { type = string }
-variable "vcn_display_name" { type = string }
-variable "vcn_dns_label"    { type = string }
+variable "compartment_id"   {}
+variable "vcn_display_name" {}
+variable "vcn_dns_label"    {}
 
 variable "vnc_cidr_block" {
   type    = string
