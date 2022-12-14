@@ -21,6 +21,6 @@ resource "oci_identity_compartment" "predicoin-compartment" {
     # Required
     compartment_id = var.tenancy_ocid
     description = "Compartment pour les ressources PREDICOIN"
-    name = "COMPTARTMENT-PREDICOIN1"
+    name = "COMPARTMENT-PREDICOIN1"
 }
 
